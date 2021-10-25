@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head{
+    background-color: #27DEBF;
+}
+/* Search button */
+/* .search .fa{
+	color:rgb(255, 255, 255);
+} */
+.search {
+	width: 130px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('Img_Assets/search icon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+  }
+  
+  .search:focus {
+	width: 100%;
+  }
+.navbar{
+	display: flex;
+	align-items: center;
+    padding: 20px;
+    background-color:#27DEBF;
+}
+.logo{
+	color: rgb(255, 255, 255);
+}
+.btnLogout{
+	color: #147a69;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	border: #777;
+}
+nav ul li a:hover{
+	color: rgb(0, 110, 255);
+}
+a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+ .username {
+	position: relative;
+	float: left;
+	font-size: 13px;
+	width: auto;
+	box-sizing: border-box;
+	/* border: 2px solid #ccc; */
+	border-radius: 4px;
+	/* background-color: white; */
+	/* padding: 10px; */
+	margin-left: 15px;
+
+ }                                                            
+p{
+	color: #555;
+}
+.container{
+
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.menu-icon{
+	width: 28px;
+	margin-left: 20px; 
+	display: none;
+	color: white;
+}

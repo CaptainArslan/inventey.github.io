@@ -1,0 +1,16 @@
+img {
+    width:100%;
+    box-shadow: 0px 1px 10px .5px #000;
+    border: 5px solid white;
+}
+.col-md-4{
+    background: #DD2f6E;
+}
+.btnback a{
+    text-decoration: none;
+left: 10%;
+	background: #fff;
+	padding: .5rem;
+	border-radius: 3px;
+    color: #DD2f6E;
+}
